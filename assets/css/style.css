@@ -1,0 +1,66 @@
+body {
+	background-image: url(../images/bg2.jpg);
+	/*background-color: #4885ed;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color:#fff; /*white*/
+	font-family: 'Lobster', cursive;
+	background-blend-mode: lighten;
+
+}
+
+h1 {
+	font-size: 75px;
+	margin-bottom: 0;
+	background-color: rgba(255, 94, 71, 0.6);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	animation: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: green;
+	font-size: 40px;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+#me {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 50px;
+}
+
+.bio {
+	width: 100%;
+	font-size: 25px;
+	line-height: 1.5;
+	background-color: rgba(0, 0, 255, 0.3);
+	
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@keyframes example {
+    from {color: blue;}
+    to {color: orange;}
+
+@keyframes animate {
+    from {background-color: red;}
+    to {background-color: yellow;}
+
